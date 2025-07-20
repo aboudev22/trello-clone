@@ -7,6 +7,6 @@ export default {
 
 export const Primary = {
   args: {
-    label: "Cliquer ici",
+    label: "Cliquer ici par ici",
   },
 };

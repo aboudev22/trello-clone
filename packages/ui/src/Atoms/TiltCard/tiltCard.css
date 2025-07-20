@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .tilt:hover {
+    box-shadow: -1px -51px 66px 1px rgba(225, 227, 123, 0.05) inset;
+    -webkit-box-shadow: -1px -51px 66px 1px rgba(225, 227, 123, 0.05) inset;
+    -moz-box-shadow: -1px -51px 66px 1px rgba(225, 227, 123, 0.05) inset;
+  }
+}
