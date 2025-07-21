@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+.neon {
+  box-shadow: 0 0 5px #fef3c6, 0 0 15px #fef3c6, 0 0 45px #fef3c6,
+    0 0 75px #fef3c6, 0 0 105px #fef3c6, 0 0 155px #fef3c6;
+}
