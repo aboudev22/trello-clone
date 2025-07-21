@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+.neon-line {
+  box-shadow: 0 0 50px oklch(62.3% 0.367 259.815);
+}
