@@ -3,11 +3,16 @@ import { motion } from "framer-motion";
 import "./NeoLine.css";
 
 interface NeonLineProps {
-  width: number;
+  width?: number;
   className?: string;
+  delay?: number;
 }
 
-export const NeonLine = ({ width, className }: NeonLineProps) => {
+export const NeonLine = ({
+  width = 100,
+  className,
+  delay = 0,
+}: NeonLineProps) => {
   return (
     <div className={clsx("relative w-fit overflow-x-hidden", className)}>
       <div
@@ -19,6 +24,7 @@ export const NeonLine = ({ width, className }: NeonLineProps) => {
         animate={{ translateX: "-100%" }}
         transition={{
           duration: 1,
+          delay: delay,
           repeat: Infinity,
           ease: "easeOut",
           repeatDelay: 2,
