@@ -39,7 +39,7 @@ export const HeroText = ({ text, className }: HeroTextProps) => {
       initial="hidden"
       animate="visible"
       className={clsx(
-        "flex justify-center items-center flex-wrap dark:text-white font-extrabold text-7xl text-center w-5xl gap-3",
+        "flex justify-center items-center flex-wrap dark:text-white font-extrabold text-2xl xl:text-7xl text-center w:sm xl:w-5xl gap-y-0 gap-3",
         className
       )}
     >

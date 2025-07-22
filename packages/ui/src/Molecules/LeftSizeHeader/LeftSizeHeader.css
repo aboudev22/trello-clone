@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+.row {
+  box-shadow: 0 0 3px oklch(62.3% 0.214 259.815),
+    0 0 5px oklch(62.3% 0.214 259.815);
+}
+
+.btn {
+  box-shadow: 0 0 100px 1px oklch(62.3% 0.214 259.815),
+    inset -2px 0 5px 1px oklch(62.3% 0.214 259.815);
+}

@@ -28,6 +28,8 @@ const childrenVariants = {
   },
 };
 
+const isMobile = window.innerWidth < 760;
+
 export const LinesMotion = ({ className }: LineMotionProps) => {
   return (
     <div
@@ -52,12 +54,12 @@ export const LinesMotion = ({ className }: LineMotionProps) => {
                     ? `${-rotateProps[index]}deg`
                     : `${rotateProps[index]}deg`,
               }}
-              className={"py-6"}
+              className={"py-4 xl:py-6"}
             >
               <NeonLine
-                delay={Math.round(Math.random() * 4)}
+                delay={Math.round(Math.random() * 15)}
                 key={index}
-                width={400}
+                width={isMobile ? 100 : 400}
               />
             </motion.div>
           ))}

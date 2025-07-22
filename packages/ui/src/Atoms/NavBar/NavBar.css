@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+.svg {
+  color: oklch(62.3% 0.214 259.815);
+  fill: oklch(62.3% 0.214 259.815);
+}

@@ -34,7 +34,9 @@ export const NeonLine = ({
       >
         <div
           style={{ width: width / 3 }}
-          className="h-full bg-gradient-to-l from-blue-500/5 to-blue-500"
+          className={clsx(
+            "h-full bg-gradient-to-l from-blue-500/5 to-blue-500"
+          )}
         ></div>
       </motion.div>
     </div>
